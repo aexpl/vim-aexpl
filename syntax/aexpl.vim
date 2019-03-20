@@ -1,5 +1,5 @@
 " Vim syntax file
-" Language:	AEXPL
+" Language:	    AEXPL
 " Maintainer:	Arvid Gerstmann <github@arvid.io>
 " Last Change:	2019 Mar 20
 
