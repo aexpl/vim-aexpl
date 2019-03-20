@@ -42,7 +42,6 @@ if v:version >= 508 || !exists('aexpl_syn_did_init')
 	else
 	    command -nargs=+ HiLink hi def link <args>
 	endif
-    endif
 
     HiLink aexCommentLine          Comment
     HiLink aexCommentLineDoc       SpecialComment
