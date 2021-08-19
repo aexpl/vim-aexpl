@@ -17,8 +17,11 @@ autocmd!
 setlocal comments=s0:/*!,m:\ ,ex:*/,s1:/*,mb:*,ex:*/,:///,://!,://
 setlocal commentstring=//\ %s
 setlocal suffixesadd=.aex
+set expandtab
+set shiftwidth=4
+set softtabstop=4
 
-let b:undo_ftplugin = 'setlocal comments< commentstring< suffixesadd<'
+let b:undo_ftplugin = 'setlocal comments< commentstring< suffixesadd< expandtab< shiftwidth< softtabstop<'
 
 augroup END
 
